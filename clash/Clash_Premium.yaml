@@ -85,9 +85,9 @@ proxies:
 # VMess
 - name: "亚马逊云-X2"
   type: vmess
-  server: 43.207.115.215
-  port: 25975
-  uuid: dce6ff7c-6fb7-446e-b5be-2a570bfae619
+  server: 43.207.66.177
+  port: 55555
+  uuid: e622fe93-48ac-4353-a3a9-e43d98a9813d
   alterId: 0
   cipher: auto
   # udp: true
