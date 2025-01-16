@@ -8,7 +8,7 @@ external-controller: 0.0.0.0:9090
 # 代理服务器配置
 proxies:
 # 亚马逊云
-  - name: "VMess-Server2"
+  - name: "X2ray-VMess"
     type: vmess
     server: 43.207.185.80
     port: 55555
@@ -29,7 +29,7 @@ proxy-groups:
   - name: "Auto"
     type: select
     proxies:
-      - "VMess-Server"
+      - "X2ray-VMess"
       - DIRECT
 
 # 路由规则组
